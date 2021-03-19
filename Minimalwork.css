@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.button-simple{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-simple:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px dodgerblue solid;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    cursor: pointer;
+}
+
+.button-simple:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-red{
+    background-color: rgb(221, 25, 25);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-red:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(201, 34, 34);
+    cursor: pointer;
+}
+
+.button-red:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-blue{
+    background-color: dodgerblue;
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-blue:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 dodgerblue;
+    cursor: pointer;
+}
+
+.button-blue:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-green{
+    background-color: rgb(17, 255, 116);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-green:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(17, 255, 116);
+    cursor: pointer;
+}
+
+.button-green:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-yellow{
+    background-color: rgb(238, 255, 0);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-yellow:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(202, 216, 0);
+    cursor: pointer;
+}
+
+.button-yellow:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-simple-round{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.button-simple-round:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px dodgerblue solid;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    cursor: pointer;
+}
+
+.button-simple-round:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-red-round{
+    background-color: rgb(221, 25, 25);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.button-red-round:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(201, 34, 34);
+    cursor: pointer;
+}
+
+.button-red-round:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-blue-round{
+    background-color: dodgerblue;
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.button-blue-round:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 dodgerblue;
+    cursor: pointer;
+}
+
+.button-blue-round:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-green-round{
+    background-color: rgb(17, 255, 116);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.button-green-round:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(17, 255, 116);
+    cursor: pointer;
+}
+
+.button-green-round:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-yellow-round{
+    background-color: rgb(238, 255, 0);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.button-yellow-round:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(202, 216, 0);
+    cursor: pointer;
+}
+
+.button-yellow-round:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.input-regular{
+    outline: 0;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 0.4s;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+.input-regular:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.input-regular:hover{
+    border-color:rgb(0, 0, 0);
+    box-shadow:0 0 8px 0 rgb(0, 0, 0);
+}
+
+.text-tooltip{
+    cursor: help;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-disabled{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    cursor: not-allowed;
+}
+
+.button-disabled:focus{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-disabled:hover{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-simple-focused{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.button-simple-focused:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px dodgerblue solid;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    cursor: pointer;
+}
+
+.button-simple-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-red-focused{
+    background-color: rgb(221, 25, 25);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    box-shadow:0 0 8px 0 rgb(255, 0, 0);
+}
+
+.button-red-focused:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(201, 34, 34);
+    cursor: pointer;
+}
+
+.button-red-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-blue-focused{
+    background-color: dodgerblue;
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    box-shadow:0 0 8px 0 dodgerblue;
+}
+
+.button-blue-focused:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 dodgerblue;
+    cursor: pointer;
+}
+
+.button-blue-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-green-focused{
+    background-color: rgb(17, 255, 116);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    box-shadow:0 0 8px 0 rgb(17, 255, 116);
+}
+
+.button-green-focused:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(17, 255, 116);
+    cursor: pointer;
+}
+
+.button-green-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-yellow-focused{
+    background-color: rgb(238, 255, 0);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+}
+
+.button-yellow-focused:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(202, 216, 0);
+    cursor: pointer;
+}
+
+.button-yellow-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-simple-round-focused{
+    background-color: rgb(247, 247, 247);
+    color: black;
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.button-simple-round-focused:hover{
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px dodgerblue solid;
+    box-shadow:0 0 8px 0 dodgerBlue;
+    cursor: pointer;
+}
+
+.button-simple-round-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-red-round-focused{
+    background-color: rgb(221, 25, 25);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow:0 0 8px 0 rgb(255, 25, 25);
+}
+
+.button-red-round-focused:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(201, 34, 34);
+    cursor: pointer;
+}
+
+.button-red-round-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-blue-round-focused{
+    background-color: dodgerblue;
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.button-blue-round-focused:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 dodgerblue;
+    cursor: pointer;
+}
+
+.button-blue-round-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-green-round-focused{
+    background-color: rgb(17, 255, 116);
+    color: rgb(250, 250, 250);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow:0 0 8px 0 rgb(17, 255, 116);
+}
+
+.button-green-round-focused:hover{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(17, 255, 116);
+    cursor: pointer;
+}
+
+.button-green-round-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
+
+.button-yellow-round-focused{
+    background-color: rgb(238, 255, 0);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: black 1px solid;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 32px;
+    font-size: medium;
+    border-radius: 8px;
+    box-shadow:0 0 8px 0 rgb(239, 255, 17);
+}
+
+.button-yellow-round-focused:hover{
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    box-sizing:border-box;
+    border: 1px rgb(0, 0, 0) solid;
+    box-shadow:0 0 8px 0 rgb(202, 216, 0);
+    cursor: pointer;
+}
+
+.button-yellow-round-focused:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 1.0s;
+    box-sizing:border-box;
+    box-shadow:0 0 8px 0 rgb(31, 31, 31);
+    border: 1px rgb(31, 31, 31) solid;
+    font-family: 'Roboto', sans-serif,;
+}
